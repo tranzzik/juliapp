@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root to: "static_pages#welcome"
 
+  get '/about_me', to: 'static_pages#about_me'
+
 end
