@@ -1,29 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Julian's Ruby App</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true%>
-        <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-    </head>
-    <body>
-
-    <div class="container">
-        <div class="jumbotron text-center">
-            <h1>
-                This is my header
-            </h1>
-            <p>
-                Hello this should maybe someday be a jumbotron
-            </p>
-        </div>
-        <div class="callout callout-primary">
-            <h4>Primary Callout</h4>
-            This is a primary callout.
-        </div>
-        <%= link_to "Hey", 'about_me', role: "button", class: "btn btn-info"%>
-
+<div class="container">
+    <div class="jumbotron text-center">
+        <h1>
+            This is my header
+        </h1>
+        <p>
+            Hello this should maybe someday be a jumbotron
+        </p>
     </div>
-    </body>
-</html>
+    <div class="callout callout-primary">
+        <h4>Primary Callout</h4>
+        This is a primary callout.
+    </div>
+    <%= link_to "About me", 'about_me', role: "button", class: "btn btn-info"%>
+    <button class="btn btn-success">Green button</button>
+
+</div>
