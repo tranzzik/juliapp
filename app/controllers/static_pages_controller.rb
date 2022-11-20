@@ -7,4 +7,8 @@ class StaticPagesController < ApplicationController
     def about_me
         render 'about_me'
     end
+
+    def martip
+        render 'martip'
+    end
 end
